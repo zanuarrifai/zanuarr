@@ -1,0 +1,90 @@
+/* =========================================================
+   style.css - Praktikum 4 bagian B
+   Modul Pemrograman Web, Prodi Bisnis Digital
+   Simpan di folder: profil-usaha/css/style.css
+   ========================================================= */
+
+/* 1. Pengaturan umum */
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  color: #333333;
+  line-height: 1.6;
+  background-color: #fffaf3;
+}
+
+/* 2. Header dan menu */
+header {
+  background-color: #7b4b2a;
+  color: white;
+  text-align: center;
+  padding: 32px 16px;
+}
+header h1 { margin: 0; font-size: 40px; }
+nav { margin-top: 16px; }
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 12px;
+}
+nav a:hover { text-decoration: underline; }
+
+/* 3. Isi halaman */
+main { max-width: 960px; margin: 0 auto; padding: 16px; }
+section {
+  background-color: white;
+  border: 1px solid #eadfd3;
+  border-radius: 12px;
+  padding: 24px;
+  margin: 24px 0;
+}
+h2 {
+  color: #7b4b2a;
+  border-bottom: 3px solid #e0a64b;
+  padding-bottom: 8px;
+}
+img { max-width: 100%; height: auto; border-radius: 8px; }
+
+/* 4. Tabel */
+table { width: 100%; border-collapse: collapse; }
+th, td { border: 1px solid #eadfd3; padding: 10px; text-align: left; }
+th { background-color: #f3e3d3; }
+
+/* 5. Form */
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  font-family: inherit;
+}
+button {
+  background-color: #7b4b2a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+button:hover { background-color: #5e3820; }
+
+/* 6. Tombol WhatsApp */
+.tombol-wa {
+  display: inline-block;
+  background-color: #253fd3;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 30px;
+}
+
+/* 7. Footer */
+footer {
+  background-color: #3d2616;
+  color: #f3e3d3;
+  text-align: center;
+  padding: 16px;
+}
